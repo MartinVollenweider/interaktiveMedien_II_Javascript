@@ -6,4 +6,5 @@ Vor den Blockwochen gibt es eine «freiwillige Fragestunde». Auf Wunsch der Stu
 - Ereignisse
 - Arrays
 - Bedingungen
+
 Das erste Beispiel (beispiel_0x) ist ein Rollover, das zweite Beispiel (beispiel_1x) eine Bildgalerie.
