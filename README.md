@@ -7,4 +7,4 @@ Vor den Blockwochen gibt es eine «freiwillige Fragestunde». Auf Wunsch der Stu
 - Arrays
 - Bedingungen
 
-Das erste Beispiel (beispiel_0x) ist ein Rollover, das zweite Beispiel (beispiel_1x) eine Bildgalerie.
+Das erste Beispiel (beispiel_0x) ist ein Rollover, das zweite Beispiel (beispiel_1x) eine Bildgalerie, das dritte Besipiel (beispiel_20) ein einfacher Taschenrechner.
