@@ -15,7 +15,7 @@ function zeigeAlleBilder(wert1) {
 }
 
 // Neu: weiter
-document.querySelector("#weiter").onclick = function () {
+document.querySelector("#weiter").addEventListener("click", function () {
   zaehler = zaehler + 1;
   zeigeAlleBilder(zaehler);
-}
+});

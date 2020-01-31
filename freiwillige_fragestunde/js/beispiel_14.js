@@ -14,7 +14,7 @@ function zeigeAlleBilder(wert1) {
   document.querySelector("#bildPlatzhalter").innerHTML = bildTag;
 }
 
-document.querySelector("#weiter").onclick = function () {
+document.querySelector("#weiter").addEventListener("click", function () {
   zaehler = zaehler + 1;
   console.log(zaehler);
   // Neu: if Bedingung
@@ -22,4 +22,4 @@ document.querySelector("#weiter").onclick = function () {
     zaehler = 0;
   }
   zeigeAlleBilder(zaehler);
-}
+});

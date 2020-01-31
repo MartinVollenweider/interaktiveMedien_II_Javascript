@@ -14,21 +14,21 @@ function zeigeAlleBilder(wert1) {
   document.querySelector("#bildPlatzhalter").innerHTML = bildTag;
 }
 
-document.querySelector("#weiter").onclick = function () {
+document.querySelector("#weiter").addEventListener("click", function () {
   zaehler = zaehler + 1;
   console.log(zaehler);
   if (zaehler >= alleBilder.length) {
     zaehler = 0;
   }
   zeigeAlleBilder(zaehler);
-}
+});
 
 // Neu: retour
-document.querySelector("#retour").onclick = function () {
+document.querySelector("#retour").addEventListener("click", function () {
   zaehler = zaehler - 1;
   console.log(zaehler);
   if (zaehler < 0) {
     zaehler = alleBilder.length -1;
   }
   zeigeAlleBilder(zaehler);
-}
+});
