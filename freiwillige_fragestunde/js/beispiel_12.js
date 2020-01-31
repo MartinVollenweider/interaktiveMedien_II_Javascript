@@ -1,15 +1,15 @@
 // Variablen festlegen
-let alle_bilder = new Array();
-alle_bilder = ['bellsprout.gif','bulbasaur.gif','caterpie.gif','charmender.gif'];
-let bild_tag;
+let alleBilder = new Array();
+alleBilder = ['bellsprout.gif','bulbasaur.gif','caterpie.gif','charmender.gif'];
+let bildTag;
 
 // Neu: Funktion
 // erstes Bild darstellen
-zeige_alle_bilder(0);
+zeigeAlleBilder(0);
 
-function zeige_alle_bilder(wert1) {
-  bild_tag  = "<img src='img/";
-  bild_tag += alle_bilder[wert1];
-  bild_tag += "' alt='Pokemon'>";
-  document.querySelector("#bild_platzhalter").innerHTML = bild_tag;
+function zeigeAlleBilder(wert1) {
+  bildTag  = "<img src='img/";
+  bildTag += alleBilder[wert1];
+  bildTag += "' alt='Pokemon'>";
+  document.querySelector("#bildPlatzhalter").innerHTML = bildTag;
 }

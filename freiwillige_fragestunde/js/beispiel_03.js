@@ -6,20 +6,20 @@ let aktuelles_Bild_alt;
 let aktuelles_Bild_legende;
 
 // aktuelles Bild herausfinden
-aktuelles_Bild = document.querySelector("#bild_pokemon").src;
-aktuelles_Bild_alt = document.querySelector("#bild_pokemon").alt;
-aktuelles_Bild_legende = document.querySelector("#text_pokemon").innerHTML;
+aktuelles_Bild = document.querySelector("#bildPokemon").src;
+aktuelles_Bild_alt = document.querySelector("#bildPokemon").alt;
+aktuelles_Bild_legende = document.querySelector("#textPokemon").innerHTML;
 
 // Ereignis: Wenn mit Maus über Bild
 // siehe https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
-document.querySelector("#bild_pokemon").onmouseover = function() {
-  document.querySelector("#bild_pokemon").src="img/caterpie.gif";
-  document.querySelector("#bild_pokemon").alt="Bild Caterpie";
-  document.querySelector("#text_pokemon").innerHTML="Das ist <b>Caterpie</b>";
-}
+document.querySelector("#bildPokemon").addEventListener("mouseover", function (){
+  document.querySelector("#bildPokemon").src="img/caterpie.gif";
+  document.querySelector("#bildPokemon").alt="Bild Caterpie";
+  document.querySelector("#textPokemon").innerHTML="Das ist <b>Caterpie</b>";
+})
 // Ereignis: Wenn mit Maus aus Bild
-document.querySelector("#bild_pokemon").onmouseout = function() {
-  document.querySelector("#bild_pokemon").src=aktuelles_Bild;
-  document.querySelector("#bild_pokemon").alt=aktuelles_Bild_alt;
-  document.querySelector("#text_pokemon").innerHTML=aktuelles_Bild_legende
-}
+document.querySelector("#bildPokemon").addEventListener("mouseout", function (){
+  document.querySelector("#bildPokemon").src=aktuelles_Bild;
+  document.querySelector("#bildPokemon").alt=aktuelles_Bild_alt;
+  document.querySelector("#textPokemon").innerHTML=aktuelles_Bild_legende
+})

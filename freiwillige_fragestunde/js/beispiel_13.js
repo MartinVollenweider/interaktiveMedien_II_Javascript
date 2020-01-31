@@ -1,21 +1,21 @@
 // Variablen festlegen
-let alle_bilder = new Array();
-alle_bilder = ['bellsprout.gif','bulbasaur.gif','caterpie.gif','charmander.gif'];
-let bild_tag;
+let alleBilder = new Array();
+alleBilder = ['bellsprout.gif','bulbasaur.gif','caterpie.gif','charmander.gif'];
+let bildTag;
 let zaehler = 0;
 
 // erstes Bild darstellen
-zeige_alle_bilder(zaehler);
+zeigeAlleBilder(zaehler);
 
-function zeige_alle_bilder(wert1) {
-  bild_tag  = "<img src='img/";
-  bild_tag += alle_bilder[wert1];
-  bild_tag += "' alt='Pokemon'>";
-  document.querySelector("#bild_platzhalter").innerHTML = bild_tag;
+function zeigeAlleBilder(wert1) {
+  bildTag  = "<img src='img/";
+  bildTag += alleBilder[wert1];
+  bildTag += "' alt='Pokemon'>";
+  document.querySelector("#bildPlatzhalter").innerHTML = bildTag;
 }
 
 // Neu: weiter
 document.querySelector("#weiter").onclick = function () {
   zaehler = zaehler + 1;
-  zeige_alle_bilder(zaehler);
+  zeigeAlleBilder(zaehler);
 }

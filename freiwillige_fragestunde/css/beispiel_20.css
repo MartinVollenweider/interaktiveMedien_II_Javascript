@@ -1,0 +1,21 @@
+body {
+  width: 100%;
+  max-width: 250px;
+}
+section {
+  background-color: #CCCCCC;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+}
+#ausgabe {
+  grid-column: 1 / span 4;
+  width: 100%;
+}
+#buttonClear {
+  grid-column: 1 / span 4;
+}

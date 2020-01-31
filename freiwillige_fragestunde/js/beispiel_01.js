@@ -1,11 +1,11 @@
 // Ereignis: Wenn mit Maus über Bild
 // siehe https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
-document.querySelector("#bild_pokemon").onmouseover = function() {
-  document.querySelector("#bild_pokemon").src="img/caterpie.gif";
-  document.querySelector("#bild_pokemon").alt="Bild Caterpie";
-}
+document.querySelector("#bildPokemon").addEventListener("mouseover", function (){
+  document.querySelector("#bildPokemon").src="img/caterpie.gif";
+  document.querySelector("#bildPokemon").alt="Bild Caterpie";
+})
 // Ereignis: Wenn mit Maus aus Bild
-document.querySelector("#bild_pokemon").onmouseout = function() {
-  document.querySelector("#bild_pokemon").src="img/bellsprout.gif";
-  document.querySelector("#bild_pokemon").alt="Bild Bellsprout";
-}
+document.querySelector("#bildPokemon").addEventListener("mouseout", function (){
+  document.querySelector("#bildPokemon").src="img/bellsprout.gif";
+  document.querySelector("#bildPokemon").alt="Bild Bellsprout";
+})
