@@ -8,3 +8,29 @@ Vor den Blockwochen gibt es eine «freiwillige Fragestunde». Auf Wunsch der Stu
 - Bedingungen
 
 Das erste Beispiel ist ein Rollover, das zweite Beispiel eine Bildgalerie, das dritte Besipiel ein einfacher Taschenrechner, das letzte Beispiel eine einfache Zeitfunktion mit Änderung von Text und Hintergrundfarbe je nach Tageszeit. Dann gibt es drei Übungen.
+## Variablen
+xx
+## Bedingungen
+xx
+## DOM
+xx
+## Events
+xx
+## Arrays
+xx
+## Schleifen
+xx
+## Funktionen
+xx
+## Debugging
+xx
+## Multimedia-Inhalte
+xx
+## Local Storage
+xx
+## Objekte
+xx
+## JSON
+xx
+## AJAX
+xx
