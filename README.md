@@ -7,4 +7,4 @@ Vor den Blockwochen gibt es eine «freiwillige Fragestunde». Auf Wunsch der Stu
 - Arrays
 - Bedingungen
 
-Das erste Beispiel (beispiel_0x) ist ein Rollover, das zweite Beispiel (beispiel_1x) eine Bildgalerie, das dritte Besipiel (beispiel_20) ein einfacher Taschenrechner, beispiel_30 eine einfache Zeitfunktion.
+Das erste Beispiel ist ein Rollover, das zweite Beispiel eine Bildgalerie, das dritte Besipiel ein einfacher Taschenrechner, das letzte Beispiel eine einfache Zeitfunktion mit Änderung von Text und Hintergrundfarbe je nach Tageszeit. Dann gibt es drei Übungen.
