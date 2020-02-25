@@ -25,7 +25,17 @@ xx
 ## Debugging
 xx
 ## Multimedia-Inhalte
-xx
+
+Im Thema Multimeida-Inhalte werden die beiden Tags ```<video></video>`` und ``<audio></audio>`` im Detail angeschaut.
+
+- Nutzen und Anwendungen
+- Formate
+- Optionen
+- Autoplay-Knigge
+- Funktionen und Events
+
+Als Mini-Projekt wird ein Audio-Player gebaut, welcher in einer Statuszeile den aktuellen Zustand ausgibt.
+
 ## Local Storage
 xx
 ## Objekte
