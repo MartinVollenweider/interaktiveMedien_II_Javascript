@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Video Events</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+    </head>
+    <body>
+        <h1>Video Events</h1>
+
+        <video id="action-movie-kid" src="media/action-movie-kid.mp4" width="1280" height="720" preload controls></video> 
+
+        <p id="verbleibende-zeit"></p>
+        <p id="statusbar"></p>
+
+        <script>
+            // Selektiere das Video-Element und die Paragraphen
+            let video = document.querySelector('#action-movie-kid');
+            let verbleibendeZeit = document.querySelector('#verbleibende-zeit');
+            let statusbar = document.querySelector('#statusbar');
+            
+            // Registriere einen Event, der jedes Mal wenn sich die Zeit des Videos aktualisiert, ausgeführt wird
+            video.addEventListener('timeupdate', zeitAktualisieren);
+            function zeitAktualisieren(e) {
+                // Hole die beiden Zeiten 'abgespielt' und 'total' des Videos; runde
+                let abgespielteZeit = Math.round(e.target.currentTime);
+
+                // Schreibe das in das HTML-Element
+                verbleibendeZeit.innerHTML = abgespielteZeit + 's';
+            }
+
+            // Registriere einen Event, der auf das Ende des Videos hört
+            video.addEventListener('ended', videoEnde);
+            function videoEnde() {
+                // Schreibe das in das Statusbar-Element
+                statusbar.innerHTML = 'Das Video ist fertig.';
+            }
+
+            // Registriere einen Event, der auf das Pausieren hört
+            video.addEventListener('pause', videoPaused);
+            function videoPaused() {
+                // Schreibe das in das Statusbar-Element
+                statusbar.innerHTML = 'Das Video ist pausiert.';
+            }
+
+            // Registriere einen Event, der auf das Abspielen hört
+            video.addEventListener('play', videoPlay);
+            function videoPlay() {
+                // Schreibe das in das Statusbar-Element
+                statusbar.innerHTML = 'Das Video wird abgespielt.';
+            }
+
+        </script>
+    </body>
+</html>
