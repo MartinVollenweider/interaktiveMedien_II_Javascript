@@ -21,7 +21,7 @@
 
         <p id="statusbar"></p>
         <script>
-            // Selektiere das Video-Element und der Button
+            // Selektiere das Video-Element, der Button und die Statusbar
             let video = document.querySelector('#action-movie-kid');
             
             let statusbar = document.querySelector('#statusbar');
@@ -33,8 +33,8 @@
             
 
             // Registriere einen Event, der jedes mal wenn sich die Zeit des Videos aktualisiert, ausgeführt wird
-            video.addEventListener('timeupdate', zeitAktualisieren);
-            function zeitAktualisieren(e) {
+            video.addEventListener('timeupdate', eventZeitAktualisieren);
+            function eventZeitAktualisieren(e) {
                 // hole die beiden Zeiten 'abgespielt' und 'total' des Videos
                 let abgespielteZeit = Math.round(e.target.currentTime);
                 let totaleZeit = Math.round(video.duration);
@@ -44,15 +44,15 @@
             }
 
             // Registriere einen Event, der auf das Ende des Videos hört
-            video.addEventListener('ended', videoEnde);
-            function videoEnde() {
+            video.addEventListener('ended', eventVideoEnde);
+            function eventVideoEnde() {
                 // Schreibe das in das Statusbar HTML-Element
                 statusbar.innerHTML = 'Das Video ist fertig.';
             }
 
             // Registriere einen Event, der auf das Pausieren hört
-            video.addEventListener('pause', videoPaused);
-            function videoPaused() {
+            video.addEventListener('pause', eventVideoPaused);
+            function eventVideoPaused() {
                 // Schreibe das in das Statusbar HTML-Element
                 statusbar.innerHTML = 'Das Video ist pausiert.';
             }
@@ -60,19 +60,18 @@
 
             /* ----------- ZUSATZAUFGABEN ------------ */
             // Registriere einen Event, der auf das Abspielen hört
-            video.addEventListener('play', videoPlay);
-            function videoPlay() {
+            video.addEventListener('play', eventVideoPlay);
+            function eventVideoPlay() {
                 // Schreibe das in das Statusbar HTML-Element
                 statusbar.innerHTML = 'Das Video wird abgespielt.';
             }
 
             // Registriere einen Event, der auf das vollständige Laden hört
-            video.addEventListener('loadeddata', videoPlay);
-            function videoPlay() {
+            video.addEventListener('loadeddata', eventLoadedData);
+            function eventLoadedData() {
                 // Schreibe das in das Statusbar HTML-Element
                 statusbar.innerHTML = 'Das Video ist geladen.';
             }
-
             /* ----------- ZUSATZAUFGABEN ENDE ------------ */
 
 

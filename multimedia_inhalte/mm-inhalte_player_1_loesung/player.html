@@ -21,17 +21,18 @@
 
         <p id="statusbar"></p>
         <script>
-            // Selektiere das Video-Element und der Button
+            // Selektiere das Video-Element, der Button und die Statusbar
             let video = document.querySelector('#action-movie-kid');
             let statusbar = document.querySelector('#statusbar');
+
             let playButton = document.querySelector('#play-button');
             let stopButton = document.querySelector('#stop-button');
             let muteButton = document.querySelector('#mute-button');
             
             // Füge die Event-Listener hinzu, welche auf den 'click'-Event hören
-            playButton.addEventListener('click', eventPlayButton)
-            stopButton.addEventListener('click', eventStopButton)
-            muteButton.addEventListener('click', eventMuteButton)
+            playButton.addEventListener('click', eventPlayButton);
+            stopButton.addEventListener('click', eventStopButton);
+            muteButton.addEventListener('click', eventMuteButton);
 
             function eventPlayButton() {
                 // Überprüfe, ob das Video pausiert ist (pausiert == true)
