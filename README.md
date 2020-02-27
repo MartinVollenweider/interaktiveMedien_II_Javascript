@@ -36,8 +36,10 @@ Im Thema Multimeida-Inhalte werden die beiden Tags ```<video></video>`` und ``<a
 
 Als Mini-Projekt wird ein Audio-Player gebaut, welcher in einer Statuszeile den aktuellen Zustand ausgibt.
 
-## Local Storage
-xx
+## localStorage
+
+Im Thema localStorage werden die Funktionen schreiben, lesen und löschen aufgearbeitet. Das ganze wird in einer sehr simplen Notizen-Anwendung geübt.
+
 ## Objekte
 xx
 ## JSON
