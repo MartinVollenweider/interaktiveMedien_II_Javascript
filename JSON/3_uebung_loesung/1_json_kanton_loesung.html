@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Übung: Kanton als JSON - Lösung</title>
+  </head>
+  <body style="background: #e2fead;">
+    <h1>Übung: Kanton als JSON laden - Lösung</h1>
+    <p>Versuchen Sie in der Browser-Konsole auf die Eigenschaften des JavaScrip-Objekts "kanton1" zuzugreifen.</p>
+    <p>Keine weiter Anzeige im Browserfenster.</p>
+    <div id="container">
+
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+
+        fetch('extern/kanton1.json')
+          .then((response) => {
+            // Definieren, welches Format die Antwort hat (wichtig für den nächsten Teil)
+            // !!!!! hier JSON !!!!!!
+            return response.json();
+          })
+          .then((data) => {
+            kanton1 = data;
+          })
+          .catch(function(error) {
+            console.log('Error: ' + error.message);
+          });
+      });
+    </script>
+  </body>
+</html>

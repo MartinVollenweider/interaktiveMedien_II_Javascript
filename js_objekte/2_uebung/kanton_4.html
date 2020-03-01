@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kanton Übung 4</title>
+  </head>
+  <body>
+    <h1>Kanton Übung 4</h1>
+    <section id="container">
+      <ul id="anzeige">
+        <li id="kanton_name"></li>
+        <li id="kanton_sprache"></li>
+        <li id="kanton_hauptort"></li>
+        <li id="kanton_flaeche"></li>
+        <li id="kanton_einwohner"></li>
+        <li id="kanton_quote"></li>
+      </ul>
+    </section>
+
+    <script>
+      let kanton1 = {
+        name : 'Bern',
+        amtssprache: ['Deutsch', ' Französich'],
+        hauptort: 'Bern',
+        flaeche: 5959.24,
+        bevoelkerung: {
+          einwohner : 1034977,
+          quote: '2,9 %'
+        }
+      };
+
+      /*  Aufgabe:
+        - Erstellen Sie für die Werte das Array kanton1.amtssprache mit Hilfe von JavaScript eine ungeordnete Liste (ul-Element) ...
+        - und fügen in diese Liste für jedes Array-Element ein HTML-Listen-Elemen (li-Element) mit dem entsprechenden Wert ein.
+        - Fügen Sie die vollstäntige HTML-Liste (ul-Element) in das HTML-Element mit der id "kanton_hauptort" ein.
+      */
+
+      // Informationen sammeln und aufbereiten
+        // Sprach-Array in HTML-Liste umwandeln
+
+        // neues ul-Element erzeugen und in Variable sprache_liste speichern.
+        // Die neue Liste existiert nur in JS und wird noch nicht im Browser angezeigt.
+
+        // Der Inhalt eines jeden Elements im Array sprache des Objekts ...
+        for(let i = 0; i < kanton1.amtssprache.length; i++){
+          // ... wird ein neues Listen-Element erzeugt, ...
+
+          // ... der Inhalt des aktuellen Array-Elements als Text in des neue Listen-Element geschreiben und ...
+
+          // ... das als nächstes Kind-Element in das erzeugte ul-Element geschrieben.
+
+        }
+
+      // Informationen in HTML anzeigen
+        // Kantonsname in Element mit id="kanton_name" einfügen
+        document.querySelector('#kanton_name').textContent = "Kantonsname: " + kanton1.name;
+        // Erläuternder Text in Element mit id="kanton_sprache" schreiben
+
+        // Das ober erstellte ul-Element als nächstes Kind-Element in Element mit id="kanton_sprache" schreiben.
+        // -> Anzeige im Browser
+
+        // Kantonshauptort in Element mit id="kanton_hauptort" einfügen
+        document.querySelector('#kanton_hauptort').textContent = "Hauptort: " + kanton1.hauptort;
+        // Kantonsfläche in Element mit id="kanton_flaeche" einfügen
+        document.querySelector('#kanton_flaeche').textContent = "Fläche: " + kanton1.flaeche;
+        // Anzahl Einwohner in Element mit id="kanton_einwohner" einfügen
+        document.querySelector('#kanton_einwohner').textContent = "Einwohner: " + kanton1.bevoelkerung.einwohner;
+        // Kantonsname in Element mit id="kanton_quote" einfügen
+        document.querySelector('#kanton_quote').textContent = "Arbeitslosenquote: " + kanton1.bevoelkerung.quote;
+    </script>
+  </body>
+</html>
