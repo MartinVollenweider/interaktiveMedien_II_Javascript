@@ -1,5 +1,3 @@
-// abwarten, bis  DOM vollständig geladen wurde
-document.addEventListener("DOMContentLoaded", function(event) {
 
   // mit window.prompt die Variablen im Browser durch User-Input setzen
   let deinAlter = window.prompt("Gib dein Alter ein.");
@@ -20,4 +18,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
   console.log(nachricht);
 
   // Code zum Erstellen neuer DOM Elemente hierhin
-});
+

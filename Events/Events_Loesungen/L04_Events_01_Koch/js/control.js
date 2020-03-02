@@ -1,5 +1,4 @@
-// abwarten, bis  DOM vollständig geladen wurde
-document.addEventListener("DOMContentLoaded", function(event) {
+
 
   // einen Event-Listener einrichten, der hört, falls der Button gedrückt wird
   document.querySelector("#switch").addEventListener("click", function(){
@@ -11,5 +10,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
     koch.classList.toggle("hidden");
 
   });
-
-});

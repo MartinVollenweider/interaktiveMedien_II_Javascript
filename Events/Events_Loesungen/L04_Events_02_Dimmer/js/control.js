@@ -1,5 +1,4 @@
-// abwarten, bis  DOM vollständig geladen wurde
-document.addEventListener("DOMContentLoaded", function(event) {
+
 
   // Variablen definieren
   let dimmer = document.querySelector("#dimmer");
@@ -44,5 +43,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
 
   });
-
-});

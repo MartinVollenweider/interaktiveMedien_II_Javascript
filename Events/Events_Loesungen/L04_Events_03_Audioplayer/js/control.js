@@ -1,6 +1,3 @@
-// abwarten, bis  DOM vollständig geladen wurde
-document.addEventListener("DOMContentLoaded", function(event) {
-
   // neues Audioelement erstellen mit new Audio();
   let audio = new Audio();
   audio.setAttribute('src', 'https://admin.undicht.be/wp-content/uploads/2019/05/kater.mp3');
@@ -48,4 +45,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
 
-});

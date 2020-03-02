@@ -1,5 +1,3 @@
-// abwarten, bis  DOM vollständig geladen wurde
-document.addEventListener("DOMContentLoaded", function(event) {
 
   // mit window.prompt die Variablen im Browser durch User-Input setzen
   let deinAlter = window.prompt("Gib dein Alter ein.");
@@ -25,9 +23,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
   spanArtikel.innerHTML = artikel;
   spanMaxAlter.innerHTML = maxAlter;
 
-  // Heading-Variable erstellen
-  let heading = document.querySelector('#heading');
-
 
   // Anhand des Totalverbrauchs den Titel entsprechend einfärben
   // Weitere Möglichkeiten zur CSS-Manipulation:
@@ -35,16 +30,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   if (totalGebraucht > 10000){
 
-    titel.style.color = 'red';
+    document.querySelector("#titel").style.color = 'red';
 
   } else if (totalGebraucht > 5000){
 
-    titel.style.color = 'blue';
+    document.querySelector("#titel").style.color = 'blue';
 
   } else {
 
-    titel.style.color = 'green';
+    document.querySelector("#titel").style.color = 'green';
 
   };
-
-});

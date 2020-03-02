@@ -1,6 +1,3 @@
-// abwarten, bis  DOM vollständig geladen wurde
-document.addEventListener("DOMContentLoaded", function(event) {
-
   // mit window.prompt die Variablen im Browser durch User-Input setzen
   let deinAlter = window.prompt("Gib dein Alter ein.");
   let maxAlter = window.prompt("Wie hoch schätzt du deine Lebenserwartung?");
@@ -29,4 +26,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
   meldung.innerHTML = nachricht;
   document.body.appendChild(meldung);
 
-});
+
