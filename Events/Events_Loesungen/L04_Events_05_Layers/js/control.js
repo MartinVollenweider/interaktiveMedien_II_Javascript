@@ -1,4 +1,4 @@
-document.querySelector("#sectionWrapper").addEventListener("click", function(ereignis) {  
+document.querySelector("#sectionWrapper").addEventListener("click", function(ereignis) {
     console.log(ereignis);
-    console.log("Gelickt auf " + ereignis.toElement.tagName + " mit id " + ereignis.toElement.id)
+    console.log("Gelickt auf " + ereignis.target.tagName + " mit id " + ereignis.target.id)
 });
