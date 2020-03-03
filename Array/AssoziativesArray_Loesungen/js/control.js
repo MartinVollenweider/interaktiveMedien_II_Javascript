@@ -1,9 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//DE" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-	<head>
-		<title>Array</title>
-		<meta charset="utf-8">
-		<script>
 			
 			//Erster Schritt. Das Array erstellen. Beim Tippen den Fehler einbauen, dass am Schluss nach Kaese ein Komma gesetzt wird. Erklären wieso das ein Problem verursachen kann
 			let buch = new Array ();
@@ -45,17 +39,3 @@
 				console.log(beni);
 				
 
-		</script>
-	</head>
-	<body>
-		<h1>Assoziative Array</h1>
-		<div id="inhalt">	
-		</div>
-	</body>
-			
-			<script>
-				//Abschluss. Den Inhalt anzeigen lassen.
-			//document.getElementById("inhalt").innerHTML = beni.groesse + "cm";
-			</script>
-
-</html>

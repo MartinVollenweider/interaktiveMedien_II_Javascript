@@ -1,9 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//DE" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-	<head>
-		<title>Schleifen</title>
-		<meta charset="utf-8">
-		<script>
 			//Grundaufbau - Knopf einfügen und dann die Funktion bauen
 		function HalloWelt(){
 			console.log("Hallo Welt");
@@ -45,22 +39,8 @@
 		
 		//Erstelle drei Buttons und bei jedem Button erscheint ein andere Alert. Es muss aber immer die gleiche Funktion aufgerufen werden
 			
-		</script>
-	</head>
-	<body>
-		<h1>Schleifen</h1>
-		<div id="inhalt">
-			<!--Button einfügen-->
-			<button onclick="HalloWelt()">Hallo Welt</button>	
-		</div>
-		<!-- Neuen Button bauen-->
-		<button id="zeitButton">Zeige die Zeit</button>
-		<div id="datum">
-		</div>
-		
-		
-	</body>
-			
+
+/*
 			<script>
 				//Listener bauen
 		document.getElementById("zeitButton").addEventListener("click", zeigeDatum);
@@ -74,5 +54,4 @@
 
 
 			</script>
-
-</html>
+*/

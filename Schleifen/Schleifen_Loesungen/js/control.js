@@ -1,10 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//DE" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-	<head>
-		<title>Schleifen</title>
-		<meta charset="utf-8">
-		<script>
-			
 			//Die beiden Beispiele aus der Präsentation. Verdeutlichung das viele Wege nach Rom führen!
 			var schritt;
 			 for (schritt = 0; schritt < 5; schritt++) {
@@ -69,19 +62,3 @@
 					console.log(buch[index].autor);
 				});
 				
-				
-			
-			
-		</script>
-	</head>
-	<body>
-		<h1>Schleifen</h1>
-		<div id="inhalt">
-				
-		</div>
-	</body>
-			
-			<script>
-			</script>
-
-</html>

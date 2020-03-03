@@ -1,10 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//DE" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-	<head>
-		<title>Array</title>
-		<meta charset="utf-8">
-		<script>
-			
 			//Erster Schritt. Das Array erstellen. Beim Tippen den Fehler einbauen, dass am Schluss nach Kaese ein Komma gesetzt wird. Erklären wieso das ein Problem verursachen kann
 			var kuehlschrank = ['Apfel', 'Milch', 'Brot', 'Kaese' ];
 			//Der Inhalt des Kühlschranks darf mit der Klasse erarbeitet werden ;)
@@ -33,15 +26,3 @@
 			var removedItems = kuehlschrank.splice(pos, n); 
 			console.log(kuehlschrank); 
 			console.log(removedItems);
-		</script>
-	</head>
-	<body>
-		<h1>Array</h1>
-		<div id="inhalt">	
-		</div>
-	</body>
-			<!--<script>
-			document.getElementById("inhalt").innerHTML = kuehlschrank.length;
-			</script>-->
-
-</html>
