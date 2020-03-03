@@ -29,13 +29,23 @@ Das erste Beispiel ist ein Rollover, das zweite Beispiel eine Bildgalerie, das d
 - Übung 03: Audioplayer, Ereignis mit Start und Pause
 - Übung 04: Layers, mehr über das Ereignis Click herausfinden
 ## Arrays
-xx
+Im Thema werden Arrays und assoziative Arrays beleuchtet. Es wird erlernt, wie diese erstellt, ausgelesen und manipuliert werden.
+Als Projekt, wird ein assoziatives Array über die eigene Persönlichkeit erstellt um die Tiefe der Thematik zu erfassen.
 ## Schleifen
-xx
+Im Thema Schleifen werden die verschiedenen Arten von Schleifen betrachtet:
+ - For
+ - ForEach
+ - While
+
+Als Übung wird durch ein verschachteltes assoziatives Array iteriert um sämtliche Werte auslesen zu können.
 ## Funktionen
-xx
-## Debugging
-xx
+Im Thema Funktionen wird beleuchtet, wie Funktionen eingesetzt werden können.
+ - Aufruf von Funktionen
+ - Aufbau von Funktionen
+ - Übergabe von Werten über Funktionen
+ 
+Als Projekt wird eine Alert-Fuktion realisiert, die sich bei drei verschiedenen Knöpfen auch unterschiedlich verhält.
+
 ## Multimedia-Inhalte
 
 Im Thema Multimedia-Inhalte werden die beiden Tags ```<video></video>`` und ``<audio></audio>`` im Detail angeschaut.
