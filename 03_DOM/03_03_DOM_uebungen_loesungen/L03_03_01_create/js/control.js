@@ -24,7 +24,7 @@ console.log(nachricht);
 let titel = document.createElement("H1");
 
 // die Eigenschaft innerhtml des titel Elements setzen
-titel.innerHTML = "Versorgungsrechner";¨
+titel.innerHTML = "Versorgungsrechner";
 
 // das neue Element ganz unten (als letztes Child) im Body anfügen
 document.body.appendChild(titel);

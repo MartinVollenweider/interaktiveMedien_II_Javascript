@@ -1,3 +1,6 @@
+// Programmiere einen Audioplayer, den du über Play / Pause Buttons steuern kannst.
+// Zeige jeweils die aktuelle Abspielzeit in Sekunden unterhalb des Players an.
+
   // neues Audioelement erstellen mit new Audio();
   let audio = new Audio();
   audio.setAttribute('src', 'https://admin.undicht.be/wp-content/uploads/2019/05/kater.mp3');
@@ -31,17 +34,16 @@
   // https://www.w3schools.com/tags/av_event_timeupdate.asp
   audio.addEventListener("timeupdate", function() {
 
-    // Speichere das Element Dauer in einer Variable
+    // speichere das HTML Element, wo die Dauer angezeigt werden soll in einer Variable
     let duration = document.querySelector('#duration');
 
+    // speichere
     let seconds = audio.currentTime;
 
-    // Mit Math.floor den Wert abrunden
+    // mit der Funktion Math.floor wird der aktuelle Sekundenwert abgerundet werden
     seconds = Math.floor(seconds);
     console.log(seconds);
 
-    // Den Wert ins HTML schreiben
+    // Den abgerundeten Wert seconds ins HTML schreiben
     duration.innerHTML = seconds + " Sec."
   });
-
-

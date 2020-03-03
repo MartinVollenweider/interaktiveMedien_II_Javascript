@@ -1,27 +1,31 @@
+// Programmiere einen Dimmer, der je nach Position des Sliders 1-5 Glühbirnen einblendet.
+// Zeige den aktuellen Wert / die aktuelle Position des Sliders dabei unterhalb der Glühbirnen an.
 
-
-  // Variablen definieren
+  // Definiere Variablen aus den HTML Elementen, mit denen du arbeiten wirst
   let dimmer = document.querySelector("#dimmer");
   let display = document.querySelector("#display");
   let lampe = document.querySelector("#lampe");
 
-  // Dimmer auf einen initialen Wert setzen
-  // dimmer.value nimmt den Wert des Range-Sliders aus dem HTML
+  // Setze den Dimmer beim Laden auf einen initialen Wert, den du im HTML definierst
+  // Diese verknüpfung machst du über die Eigenschaft dimmer.value
   display.innerHTML = dimmer.value;
   lampe.innerHTML = '💡';
 
-  // einen Event-Listener einrichten, der hört, falls der Slider bewegt wird
+  // ein Event-Listener, der mittels dem input Event triggert,
+  // falls der Slider bewegt wird
   document.querySelector("#dimmer").addEventListener("input", function(){
 
-    // in der Konsole ausgeben, dass der Dimmer bewegt wurde
+    // zur Prüfung jedes Mal in der Konsole ausgeben, sobald der Dimmer bewegt wurde.
     console.log("Der Dimmer wurde bewegt!");
 
-    // den aktuellen Wert des Sliders ins HTML übertragen
+    // den aktuellen Wert des Sliders aufs 'display' im HTML übertragen
     display.innerHTML = dimmer.value;
 
-    // je nach Position (Wert) eine bestimmte Anzahl Lampen anzeigen
+    // mittels If-Else Bedingungen je nach Position (Wert) des Sliders
+    // eine entsprechende Anzahl Lampen anzeigen
     if (dimmer.value <= 10){
 
+      // entsprechende Lampe im HTML anzeigen
       lampe.innerHTML = '💡';
 
     } else if (dimmer.value > 10 && dimmer.value < 20){

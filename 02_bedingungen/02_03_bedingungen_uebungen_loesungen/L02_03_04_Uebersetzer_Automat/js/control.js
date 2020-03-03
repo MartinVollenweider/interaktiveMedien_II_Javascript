@@ -1,3 +1,4 @@
+// In 02.02.02 Übersetzer eingebaut
 
 // Attribut herausfinden
 let lang = document.querySelector("html").getAttribute("lang")
