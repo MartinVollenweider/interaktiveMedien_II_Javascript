@@ -1,31 +1,29 @@
-// abwarten, bis  DOM vollständig geladen wurde
-document.addEventListener("DOMContentLoaded", function(event) {
+// Ändere die Farbe des Titels abhängig davon,
+// wie viele Einheiten (z.B. Tassen Tee) errechnet wurden.
 
-  // mit window.prompt die Variablen im Browser durch User-Input setzen
-  let deinAlter = window.prompt("Gib dein Alter ein.");
-  let maxAlter = window.prompt("Wie hoch schätzt du deine Lebenserwartung?");
+// mit window.prompt die Variablen im Browser durch User-Input setzen
+let alter = window.prompt("Gib dein Alter ein.");
+let lebenserwartung = window.prompt("Wie hoch schätzt du deine Lebenserwartung?");
 
-  // Variablen definieren
-  let einheit = "Tassen";
-  let artikel = "Tee";
-  let anzahlProTag = 2;
+// Variablen definieren
+let einheit = "Tassen";
+let artikel = "Tee";
+let anzahlProTag = 2;
 
-  // Totalverbrauch ausrechnen
-  let totalGebraucht = (anzahlProTag * 365) * (maxAlter - deinAlter);
+// Totalverbrauch ausrechnen
+let totalGebraucht = (anzahlProTag * 365) * (lebenserwartung - alter);
 
-  // HTML Spans mittels IDs als Variablen definieren
-  let spanTotalGebraucht = document.querySelector('#totalGebraucht');
-  let spanEinheit = document.querySelector('#einheit');
-  let spanArtikel = document.querySelector('#artikel');
-  let spanMaxAlter = document.querySelector('#maxAlter');
+// HTML Spans mittels IDs als Variablen definieren
+let spanTotalGebraucht = document.querySelector('#totalGebraucht');
+let spanEinheit = document.querySelector('#einheit');
+let spanArtikel = document.querySelector('#artikel');
+let spanMaxAlter = document.querySelector('#maxAlter');
 
-  //HTML der Span-Variablen dynamisch füllen
-  spanTotalGebraucht.innerHTML = totalGebraucht;
-  spanEinheit.innerHTML = einheit;
-  spanArtikel.innerHTML = artikel;
-  spanMaxAlter.innerHTML = maxAlter;
+//HTML der Span-Variablen dynamisch füllen
+spanTotalGebraucht.innerHTML = totalGebraucht;
+spanEinheit.innerHTML = einheit;
+spanArtikel.innerHTML = artikel;
+spanMaxAlter.innerHTML = lebenserwartung;
 
-  // Möglichkeiten zur CSS-Manipulation:
-  // https://www.w3schools.com/jsref/dom_obj_style.asp
-
-});
+// Möglichkeiten zur CSS-Manipulation:
+// https://www.w3schools.com/jsref/dom_obj_style.asp

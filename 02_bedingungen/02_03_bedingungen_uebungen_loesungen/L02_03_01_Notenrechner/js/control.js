@@ -1,7 +1,11 @@
-// Variable definieren
+// Programmiere ein Skript, das dir je nach Punktzahl (0-100) jeweils
+// die entsprechende Note (3-6) in der Konsole ausgibt. Verwende für die
+// Lösung dieser Aufgabe eine If / Else Bedingung.
+
+// Variable Punktzahl definieren
 let score = 65;
 
-// Bedingungen prüfen und Resultat in der Konsole ausgeben
+// Punktzahl absteigend prüfen und Resultat in der Konsole ausgeben
     if (score > 90) {
 
         console.log('Du hast eine ' + 6);
@@ -23,6 +27,6 @@ let score = 65;
         console.log('Du hast eine ' + 4);
 
     } else {
-      
+
         console.log('Du bist ungenügend!');
     }
