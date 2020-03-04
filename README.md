@@ -62,8 +62,8 @@ Als Mini-Projekt wird ein Audio-Player gebaut, welcher in einer Statuszeile den 
 
 Im Thema localStorage werden die Funktionen schreiben, lesen und löschen aufgearbeitet. Das ganze wird in einer sehr simplen Notizen-Anwendung geübt.
 
-# Ziel der drei fogenden Themenblöcke:
-Dieser und die drei folgenden Themenblöcke gehören zusammen. Ziel ist das dynamische Laden von JSON-Daten und ihre Darstellung im Webbrowser.
+# Ziel der drei folgenden Themenblöcke:
+Die drei folgenden Themenblöcke gehören zusammen. Ziel ist das dynamische Laden von JSON-Daten und ihre Darstellung im Webbrowser.
 
 ## 10 JavaScript-Objekte
 Mit einem JS-Objekt kann man leicht Daten in HTML darstellen.
