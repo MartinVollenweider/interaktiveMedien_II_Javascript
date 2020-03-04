@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Übung: Kanton als JSON laden und im Browserfenster anzeigen - Lösung</title>
+  </head>
+  <body style="background: #e2fead;">
+    <h1>Übung: Kanton als JSON laden und im Browserfenster anzeigen - Lösung</h1>
+    <div id="container">
+      <div id="buttons">
+        <!--  Das Button-Element erhält ein von uns definiertes data-Attribut mit dem Namen data-Dateiname.
+              Als Wert erhält das Attribut den Dateinamen (ohne Erweiterung) der externen Datei, die mit fetch() geladen werden soll.
+              Zum Thema data_Attribut siehe: https://wiki.selfhtml.org/wiki/HTML/Universalattribute/data-Attribute
+        -->
+        <button class="btn" data-dateiname="kanton1">Bern</button><br>
+        <button class="btn" data-dateiname="kanton2">Graubünden</button><br>
+      </div>
+      <div id="anzeige">
+
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
