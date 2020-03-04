@@ -43,7 +43,7 @@ Im Thema Funktionen wird beleuchtet, wie Funktionen eingesetzt werden können.
  - Aufruf von Funktionen
  - Aufbau von Funktionen
  - Übergabe von Werten über Funktionen
- 
+
 Als Projekt wird eine Alert-Fuktion realisiert, die sich bei drei verschiedenen Knöpfen auch unterschiedlich verhält.
 
 ## Multimedia-Inhalte
@@ -62,9 +62,28 @@ Als Mini-Projekt wird ein Audio-Player gebaut, welcher in einer Statuszeile den 
 
 Im Thema localStorage werden die Funktionen schreiben, lesen und löschen aufgearbeitet. Das ganze wird in einer sehr simplen Notizen-Anwendung geübt.
 
-## Objekte
-xx
-## JSON
-xx
-## AJAX
-xx
+# Ziel der drei fogenden Themenblöcke:
+Dieser und die drei folgenden Themenblöcke gehören zusammen. Ziel ist das dynamische Laden von JSON-Daten und ihre Darstellung im Webbrowser.
+
+## 10 JavaScript-Objekte
+Mit einem JS-Objekt kann man leicht Daten in HTML darstellen.
+- Objekt erstellen
+- Objekt und Eigenschaft in der Konsole aufrufen
+- Objekt-Eigenschaften in vorhandene HTML-Struktur schreiben
+- HTML-Struktur dynamisch aus Objekt erzeugen und in HTML ausgeben
+- Code in einer Fuktion bündeln und Funktion aufrufen
+- mehrere Objekte mittels der Funktion ausgeben
+
+## 11 AJAX
+AJAX ermöglich das dynamische Nachladen externer Inhalte, ohne die Webseite neu laden zu müssen.
+- externen Text laden und in der Konsole ausgeben.
+- externen Text laden und in der Webseite anzeigen
+- externes HTML laden und in der Webseite ausgeben.
+- externe Inhalte mit Hilfe von Buttons austauschen
+
+## 12 JSON
+JSON ist ein sehr weit verbreitetes Datenaustauschformat. In JavaScript lässt sich JSON sehr leicht in ein Objekt umwandeln.
+- JSON Syntax
+- JSON laden und in der Konsole ausgeben
+- JSON laden und Eigenschaften in der Webseite ausgeben
+- JSON-Inhalte mit Hilfe von Buttons austauschen
