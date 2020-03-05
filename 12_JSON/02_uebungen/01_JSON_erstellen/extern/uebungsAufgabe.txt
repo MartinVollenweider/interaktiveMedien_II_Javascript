@@ -1,5 +1,5 @@
-/* ************** Aufgabe **************
-/*  Erstellen Sie in der Datei kanton.json in diesem Verzeichnis
+/*  JSON | Übung 1 | 01_JSON_erstellen
+/*  Erstellen Sie in der Datei kanton1.json in diesem Verzeichnis
 /*  aus dem unten stehenden Code für ein JS-Objekt
 /*  einen valieden JSON-Code
 /*

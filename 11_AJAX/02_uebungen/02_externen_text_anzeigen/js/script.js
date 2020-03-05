@@ -1,4 +1,4 @@
-/* ************** Aufgabe **************
+/*  AJAX | Übung 2 | 02_externen_text_anzeigen
 /* 1. Geben Sie den geladenen Inhalt als textContent in dem HTML-Element mit der ID 'content' aus.
 /* ************************************ */
 

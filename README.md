@@ -48,7 +48,7 @@ Als Projekt wird eine Alert-Fuktion realisiert, die sich bei drei verschiedenen 
 
 ## Multimedia-Inhalte
 
-Im Thema Multimedia-Inhalte werden die beiden Tags ```<video></video>`` und ``<audio></audio>`` im Detail angeschaut.
+Im Thema Multimedia-Inhalte werden die beiden Tags ``<video></video>`` und ``<audio></audio>`` im Detail angeschaut.
 
 - Nutzen und Anwendungen
 - Formate
@@ -67,18 +67,18 @@ Die drei folgenden Themenblöcke gehören zusammen. Ziel ist das dynamische Lade
 
 ## 10 JavaScript-Objekte
 Mit einem JS-Objekt kann man leicht Daten in HTML darstellen.
-- Objekt erstellen
-- Objekt und Eigenschaft in der Konsole aufrufen
+- Objekt erstellen und Eigenschaft in der Konsole aufrufen
 - Objekt-Eigenschaften in vorhandene HTML-Struktur schreiben
+- ungeordnete Liste aus dynamisch in JavaScript aus Untereigenschaften des Objekts erstellen und in HTML einfügen
 - HTML-Struktur dynamisch aus Objekt erzeugen und in HTML ausgeben
 - Code in einer Fuktion bündeln und Funktion aufrufen
 - mehrere Objekte mittels der Funktion ausgeben
 
 ## 11 AJAX
 AJAX ermöglich das dynamische Nachladen externer Inhalte, ohne die Webseite neu laden zu müssen.
-- externen Text laden und in der Konsole ausgeben.
+- externen Text laden und in der Konsole ausgeben
 - externen Text laden und in der Webseite anzeigen
-- externes HTML laden und in der Webseite ausgeben.
+- externes HTML laden und in der Webseite ausgeben
 - externe Inhalte mit Hilfe von Buttons austauschen
 
 ## 12 JSON

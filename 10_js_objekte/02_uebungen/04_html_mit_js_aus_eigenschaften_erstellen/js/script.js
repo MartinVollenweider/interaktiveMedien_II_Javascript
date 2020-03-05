@@ -9,10 +9,10 @@ let kanton1 = {
   }
 };
 
-/*  Aufgabe:
-  1. Erstellen Sie die HTML-Struktur mit Hilfe von JavaScript ...
-  2. und schreiben Sie die Eigenschaftswerte aus "kanton1" in die entsprechenden Elemente
-  3. Fügen Sie zuletzt die ganze, in JS erstellte HTML-Struktur als ChildNode in das HTML-Element mit der id "conainer" ein.
+/*  JS-Objekte | Übung 4 | 04_html_mit_js_aus_eigenschaften_erstellen
+*  1. Erstellen Sie die HTML-Struktur mit Hilfe von JavaScript ...
+*  2. und schreiben Sie die Eigenschaftswerte aus "kanton1" in die entsprechenden Elemente
+*  3. Fügen Sie zuletzt die ganze, in JS erstellte HTML-Struktur als ChildNode in das HTML-Element mit der id "conainer" ein.
 */
 
 // 1.

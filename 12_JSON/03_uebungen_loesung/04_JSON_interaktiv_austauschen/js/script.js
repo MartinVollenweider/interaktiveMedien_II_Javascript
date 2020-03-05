@@ -1,4 +1,4 @@
-/* ************** Aufgabe **************
+/*  JSON | Lösung der Übung 4 | 04_JSON_interaktiv_austauschen
 /*  1. Packen Sie den fetch()-Aufruf in eine Fuktion mit dem Namen laden_und_anzeigen()
 /*  2. Bei Click auf einen Button soll die soeben erstellte Funktion laden_und_anzeigen()
 /*     ... mit dem Inhalt des Attributs data-dateiname aufgerufen werden.

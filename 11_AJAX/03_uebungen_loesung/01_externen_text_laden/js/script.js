@@ -1,4 +1,4 @@
-/* ************** Aufgabe **************
+/*  AJAX | Lösung der Übung 1 | 01_externen_text_laden
 /* 1. Laden Sie den Inhalt aus der Datei 'extern/text.txt' mit Hilfe der fetch()-API
 /* 2. Geben Sie im ersten Promise an, welches Datenformat als Antwort erwartet wird.
 /* 3. Geben Sie den geladenen Text in der Konsole aus.

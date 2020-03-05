@@ -1,4 +1,4 @@
-/* ************** Aufgabe **************
+/*  JSON | Lösung der Übung 3 | 03_JSON_laden_und_anzeigen
 /*  1. Kopieren Sie die Funktion kanton_anzeigen() aus der Datei
 /*      10_js_objekte/03_uebungen_loesung/07_funktion_nutzen/js/script.js
 /*      ... an das Ende dieser Datei.

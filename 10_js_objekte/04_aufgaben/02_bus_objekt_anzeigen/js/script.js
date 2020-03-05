@@ -41,7 +41,7 @@ let bus2 ={
 };
 
 
-/* ************** Aufgabe **************
+/*  JS-Objekte | Aufgabe 2 | 02_bus_objekt_anzeigen
 /*  Ertsellen Sie eine Funktion "busobjekt_in_html_anzeigen()" mit dem Funktionsparameter "bus_parameter",
 /*  Die Funktion gibt ein alle Angaben zur Buslinie als HTML zurück.
 /*  Wenden Sie die Funktion mit den JS-Objekten an und geben Sie das Ergebnis als Child-Elemente des HTML-Elements mit der id "container" im Brwser aus.

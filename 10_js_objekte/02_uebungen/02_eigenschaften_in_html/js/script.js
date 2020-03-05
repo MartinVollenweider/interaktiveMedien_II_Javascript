@@ -9,8 +9,8 @@ let kanton1 = {
   }
 };
 
-/*  Aufgabe:
-  - Übertragen Sie die Werte aus dem JS-Objekt kanton1 in die li-Elemente der HTML-Liste.
+/*  JS-Objekte | Lösung der Übung 2 | 02_eigenschaften_in_html
+*   Übertragen Sie die Werte aus dem JS-Objekt kanton1 in die li-Elemente der HTML-Liste.
 */
 
 // Informationen sammeln und aufbereiten

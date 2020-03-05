@@ -9,12 +9,12 @@ let kanton1 = {
   }
 };
 
-/*  Aufgabe:
-  1. Packen Sie den kompletten Aufbau in eine Funktion mit dem Namen "kanton_anzeigen()" mit dem Funktionsparameter "kanton_param)".
-     Dem Funktionsparameter "kanton_param" übergeben Sie später beim Funktionsaufruf das Objekt "kanton1".
-  2. Ersetzen Sie innerhalb der Funktion "kanton1" durch "kanton_param".
-  3. Schreiben Sie "anzeige" als Kind-Element in das HTML-Element mit der id="container".
-  4. Rufen Sie die Funktion auf mit dem JS-Objekt "kanton1" als Parameter auf.
+/*  JS-Objekte | Lösung der Übung 5 | 05_funktionen_nutzen
+*  1. Packen Sie den kompletten Aufbau in eine Funktion mit dem Namen "kanton_anzeigen()" mit dem Funktionsparameter "kanton_param)".
+*     Dem Funktionsparameter "kanton_param" übergeben Sie später beim Funktionsaufruf das Objekt "kanton1".
+3  2. Ersetzen Sie innerhalb der Funktion "kanton1" durch "kanton_param".
+3  3. Schreiben Sie "anzeige" als Kind-Element in das HTML-Element mit der id="container".
+*  4. Rufen Sie die Funktion auf mit dem JS-Objekt "kanton1" als Parameter auf.
 */
 
 // Funktionsaufruf um mit einem kanton-Objekt eine HTML-Struktur zu erzeugen und zurückzugeben

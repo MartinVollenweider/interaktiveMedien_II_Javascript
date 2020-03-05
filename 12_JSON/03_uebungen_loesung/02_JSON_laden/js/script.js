@@ -1,4 +1,4 @@
-/* ************** Aufgabe **************
+/*  JSON | Lösung der Übung 2 | 02_JSON_laden
 /*  1. Laden Sie mit fetch() die Datei 'extern/kanton1.json'.
 /*  2. Stellen sie im response ein, welchen Datentyp fetch() zu erwarten hat.
 /*  3. Geben Sie mit console.log() die empfangenen Daten in der Konsole Ihres Browsers aus.

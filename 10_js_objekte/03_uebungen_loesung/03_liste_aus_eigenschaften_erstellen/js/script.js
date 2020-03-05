@@ -9,10 +9,10 @@ let kanton1 = {
   }
 };
 
-/*  Aufgabe:
-  - Erstellen Sie für die Werte das Array kanton1.amtssprache mit Hilfe von JavaScript eine ungeordnete Liste (ul-Element) ...
-  - und fügen in diese Liste für jedes Array-Element ein HTML-Listen-Elemen (li-Element) mit dem entsprechenden Wert ein.
-  - Fügen Sie die vollstäntige HTML-Liste (ul-Element) in das HTML-Element mit der id "kanton_hauptort" ein.
+/*  JS-Objekte | Lösung der Übung 3 | 03_liste_aus_eigenschaften_erstellen
+*  1. Erstellen Sie für die Werte das Array kanton1.amtssprache mit Hilfe von JavaScript eine ungeordnete Liste (ul-Element) und ...
+*  2. fügen in diese Liste für jedes Array-Element ein HTML-Listen-Elemen (li-Element) mit dem entsprechenden Wert ein.
+*  3. Fügen Sie die vollstäntige HTML-Liste (ul-Element) in das HTML-Element mit der id "kanton_hauptort" ein.
 */
 
 // Informationen sammeln und aufbereiten
@@ -20,10 +20,12 @@ let kanton1 = {
 
   // neues ul-Element erzeugen und in Variable sprache_liste speichern.
   // Die neue Liste existiert nur in JS und wird noch nicht im Browser angezeigt.
+// 1.
   let sprache_liste = document.createElement('ul');
   // Der Inhalt eines jeden Elements im Array sprache des Objekts ...
   for(let i = 0; i < kanton1.amtssprache.length; i++){
     // ... wird ein neues Listen-Element erzeugt, ...
+// 2.
     let sprach_listenpunkt = document.createElement('li');
     // ... der Inhalt des aktuellen Array-Elements als Text in des neue Listen-Element geschreiben und ...
     sprach_listenpunkt.textContent = kanton1.amtssprache[i];
@@ -38,6 +40,7 @@ let kanton1 = {
   document.querySelector('#kanton_sprache').textContent = "Amtsprachen: ";
   // Das ober erstellte ul-Element als nächstes Kind-Element in Element mit id="kanton_sprache" schreiben.
   // -> Anzeige im Browser
+// 3.
   document.querySelector('#kanton_sprache').appendChild(sprache_liste);
   // Kantonshauptort in Element mit id="kanton_hauptort" einfügen
   document.querySelector('#kanton_hauptort').textContent = "Hauptort: " + kanton1.hauptort;

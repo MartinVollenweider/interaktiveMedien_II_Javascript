@@ -1,4 +1,4 @@
-/* ************** Aufgabe **************
+/*  AJAX | Lösung der Übung 4 | 04_inhalt_interaktiv_austauschen
 /*  1. Siehe: zugehörige HTML-Datei. (../index.html)
 /*  2. Packen Sie den fetch()-Aufruf in eine Fuktion mit dem Namen zeige_externen_inhalt()
 /*  3. Als Parameter (dateiname) erhält die Funktion den Dateinamen der externen Datei. (Dateiname ohne Extension)

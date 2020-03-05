@@ -1,4 +1,4 @@
-/* ************** Aufgabe **************
+/*  JSON | Übung 3 | 03_JSON_laden_und_anzeigen
 /*  1. Kopieren Sie die Funktion kanton_anzeigen() aus der Datei
 /*      10_js_objekte/03_uebungen_loesung/07_funktion_nutzen/js/script.js
 /*      ... an das Ende dieser Datei.
@@ -16,7 +16,7 @@ fetch('extern/kanton1.json')
     // Die empfangegen JSON-Daten werden von JS direkt in ein Objekt umgewandelt.
     // Wir geben der Funktion data als Parameter mit
 // 2.
-    
+
   })
   .catch(function(error) {
     console.log('Error: ' + error.message);
