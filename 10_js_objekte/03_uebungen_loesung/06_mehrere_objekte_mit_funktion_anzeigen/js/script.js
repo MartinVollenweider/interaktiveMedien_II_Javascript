@@ -11,7 +11,9 @@ let kanton1 = {
 
 /*  JS-Objekte | Lösung der Übung 6 | 06_mehrere_objekte_mit_funktionen_anzeigen
 *   1. Erstellen Sie für den Kanton Graubünden ein JavaScript-Objekt mit dem Namen "kanton2"
-*   Das Objekt soll die selben Eigenschaften haben wie "kanton1":
+*   Das Objekt soll die selben Eigenschaften haben wie "kanton1"
+*     Die Informationen entnehmen Sie der Seite:
+*     https://de.wikipedia.org/wiki/Kanton_Graub%C3%BCnden
 *   2. Rufen Sie zusätzlich die Funktion auf mit dem JS-Objekt "kanton2" als Parameter auf.
 */
 
