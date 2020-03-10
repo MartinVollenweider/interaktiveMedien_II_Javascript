@@ -1,0 +1,8 @@
+/* absolute Position der Bilder */
+img, button {
+  position: absolute;
+}
+/* Button zuoberst */
+button {
+  z-index: 2;
+}
