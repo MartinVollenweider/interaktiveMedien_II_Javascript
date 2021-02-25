@@ -2,7 +2,7 @@
 
 let alter = 21;
 
-if (alter > 16){
+if (alter > 16){
   let schnaps = false;
 
 } else if (alter > 18){
@@ -17,7 +17,7 @@ console.log(schnaps)
 
 let alter = 21;
 
-if (alter > 18){
+if (alter > 18){
   let schnaps = true;
 
 } else if (alter > 16){

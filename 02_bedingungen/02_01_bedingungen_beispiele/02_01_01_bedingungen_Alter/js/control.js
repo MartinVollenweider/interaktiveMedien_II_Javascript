@@ -3,13 +3,13 @@
 let alter = 17;
 
 // falls
-if (alter < 16 ){
+if (alter < 16 ){
   console.log("Leider bist du noch zu jung.");
-// andernfalls
+// andernfalls
 } else if (alter < 18){
 
   console.log("Du darfs Bier kaufen, aber keinen Schnaps");
-// sonst
+// sonst
 } else {
 
   console.log("Du darfs alles kaufen.");

@@ -1,5 +1,5 @@
 // Programmiere einen Dimmer, der je nach Position des Sliders 1-5 Glühbirnen einblendet.
-// Zeige den aktuellen Wert / die aktuelle Position des Sliders dabei unterhalb der Glühbirnen an.
+// Zeige den aktuellen Wert / die aktuelle Position des Slidersdabei unterhalb der Glühbirnen an.
 
   // Definiere Variablen aus den HTML Elementen, mit denen du arbeiten wirst
   let dimmer = document.querySelector("#dimmer");

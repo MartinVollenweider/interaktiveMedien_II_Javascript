@@ -1,3 +1,5 @@
+// Je nach Tageszeit andere Hintergrund- und Schriftfarbe
+
 let inhalt;
 let heute;
 

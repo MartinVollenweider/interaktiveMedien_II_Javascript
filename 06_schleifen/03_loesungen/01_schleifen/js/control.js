@@ -1,4 +1,5 @@
-			//Die beiden Beispiele aus der Präsentation. Verdeutlichung das viele Wege nach Rom führen!
+			/* Die beiden Beispiele aus der Präsentation.
+            Verdeutlichung das viele Wege nach Rom führen! */
 			var schritt;
 			 for (schritt = 0; schritt < 5; schritt++) {
 				console.log('Gehe einen Schritt nach Osten');

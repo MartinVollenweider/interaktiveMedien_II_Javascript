@@ -1,3 +1,5 @@
+// Bildgalerie, Teil 4: weitere Bilder zeigen mit Vorwärts, mit Ende
+
 // Variablen festlegen
 let alleBilder = new Array();
 alleBilder = ['bellsprout.gif','bulbasaur.gif','caterpie.gif','charmander.gif'];

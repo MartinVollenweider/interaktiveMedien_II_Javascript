@@ -1,3 +1,5 @@
+// Bildgalerie, Teil 1: Erstes Bild zeigen
+
 // Variablen festlegen
 let alleBilder = new Array();
 alleBilder = ['bellsprout.gif','bulbasaur.gif','caterpie.gif','charmender.gif'];

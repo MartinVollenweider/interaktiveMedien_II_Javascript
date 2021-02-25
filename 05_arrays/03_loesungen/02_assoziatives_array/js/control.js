@@ -1,5 +1,7 @@
 			
-			//Erster Schritt. Das Array erstellen. Beim Tippen den Fehler einbauen, dass am Schluss nach Kaese ein Komma gesetzt wird. Erklären wieso das ein Problem verursachen kann
+			/* Erster Schritt. Das Array erstellen. Beim Tippen den Fehler einbauen,
+            dass am Schluss nach Kaese ein Komma gesetzt wird.
+            Erklären wieso das ein Problem verursachen kann. */
 			let buch = new Array ();
 				buch['titel'] = "Ab die Post";
 				buch['isbn']  = "344254565X";
