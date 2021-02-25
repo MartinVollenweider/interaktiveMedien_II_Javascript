@@ -18,4 +18,4 @@ let status = "ist eingeloggt";
 console.log(name + " " + status);
 
 name = "Martin"
-console.log(name + " " + status);
+console.log(name + " " + status);
